@@ -1,0 +1,8 @@
+{
+  "name": "mirushaki/flowplayer",
+  "description": "flowplayer widget for yii2 framework",
+  "require": {
+    "php": "^5.4.0",
+    "yiisoft/yii2": "2.*"
+  }
+}
