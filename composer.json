@@ -1,7 +1,7 @@
 {
   "name": "mirushaki/flowplayer",
   "description": "flowplayer widget for yii2 framework",
-  "license": "GPL-v3.0"
+  "license": "GPL-v3.0",
   "require": {
     "php": "^5.4.0",
     "yiisoft/yii2": "2.*"
