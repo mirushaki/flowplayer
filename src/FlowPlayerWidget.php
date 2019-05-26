@@ -69,9 +69,9 @@ class FlowPlayerWidget extends Widget {
     public function registerAssets($view)
     {
         FlowPlayerAsset::register($view);
-        $js = 'flowplayer("#' . $this->containerOptions['id'];
+        $js = 'flowplayer("#' . $this->containerOptions['id'] . '", ';
         $js .= json_encode($this->pluginOptions) . "\n";
-        $js .= ");\n";
+        $js .= ");";
         $view->registerJs($js, $view::POS_READY);
     }
 
