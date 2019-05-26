@@ -13,13 +13,13 @@ class FlowPlayerAsset extends AssetBundle
     /**
      * @var string the directory that contains the source asset files for this asset bundle.
      */
-    public $sourcePath = '@vendor/mirushaki/flowplayer/assets';
+    public $sourcePath = '@vendor/mirushaki/flowplayer/src/assets';
 
     /**
      * @var string[] javascript files
      */
     public $js = [
-      'js/flowplayer.min'
+      'js/flowplayer.min.js'
     ];
 
 
