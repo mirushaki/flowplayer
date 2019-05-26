@@ -2,8 +2,20 @@
   "name": "mirushaki/flowplayer",
   "description": "flowplayer widget for yii2 framework",
   "license": "GPL-3.0-or-later",
+  "authors": [
+        {
+            "name": "Mirian Jintchvelashvili",
+            "email": "mirian.jinchvelashvili@gmail.com"
+        }
+    ],
   "require": {
     "php": "^5.4.0",
     "yiisoft/yii2": "2.*"
+  },
+  "minimum-stability" : "stable",
+  "autoload": {
+      "psr-4": {
+          "mirushaki\\flowplayer\\": ""
+      }
   }
 }
