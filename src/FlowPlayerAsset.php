@@ -19,7 +19,7 @@ class FlowPlayerAsset extends AssetBundle
      * @var string[] javascript files
      */
     public $js = [
-      'js/flowplayer.min.js'
+      'js/flowplayer.min.js',
     ];
 
 
